@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayVault</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo"><a href="index.html"><img src="../images/logo.png" alt="PlayVault"></a></h1>
+        <div class="zone-centre">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#jeux">Jeux</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+            </ul>
+        </nav>
+        <form class="barre-recherche" role="search">
+            <input type="search" id="recherche" placeholder="Slime, RPG, infiltration…" aria-label="Rechercher un jeu">
+        </form>
+        <button class="recherche" aria-label="Recherche">
+            <svg class="icone-loupe" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>
+            </svg>
+            <svg class="icone-fermer" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M6 6l12 12M18 6L6 18"/>
+            </svg>
+        </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-texte">
+                <span class="tag">Coup de cœur</span>
+                <h2>The Legend of Zelda: Breath of the Wild</h2>
+                <p>Réveillez-vous dans un Hyrule en ruines et explorez librement un monde ouvert.</p>
+                <span class="badge">97</span>
+                <a href="#" class="bouton-voir">Voir plus</a>
+            </div>
+            <img src="../images/Zelda-breath-of-the-wild.jpg" alt="The Legend of Zelda: Breath of the Wild">
+        </section>
+        <section id="jeux">
+            <h2>Jeux recommandés</h2>
+            <article class="cartes">
+                <div class="visuel">
+                    <img src="../images/Slime-rancher-2.jpg" alt="Slime Rancher 2">
+                    <video src="../videos/Slime-rancher-2.mp4" muted loop playsinline preload="none"></video>
+                </div>
+                <div class="infos">
+                    <h3>Slime Rancher 2</h3>
+                    <span class="badge">76</span>
+                </div>
+                <p>Explorez l'île mystérieuse de l'Arc-en-Ciel, capturez des slimes adorables et développez votre ranch dans un monde coloré rempli de secrets et de découvertes.</p>
+                <a href="#" class="bouton-voir">Voir plus</a>
+            </article>
+            <article class="cartes">
+                <div class="visuel">
+                    <img src="../images/Cyberpunk-2077.jpg" alt="Cyberpunk 2077">
+                    <video src="../videos/Cyberpunk-2077.mp4" muted loop playsinline preload="none"></video>
+                </div>
+                <div class="infos">
+                    <h3>Cyberpunk 2077</h3>
+                    <span class="badge">85</span>
+                </div>
+                <p>Plongez dans Night City, une mégalopole futuriste dominée par les technologies et les corporations. Incarnez V et façonnez votre destin dans un monde ouvert.</p>
+                <a href="#" class="bouton-voir">Voir plus</a>
+            </article>
+            <article class="cartes">
+                <div class="visuel">
+                    <img src="../images/Metal-gear-solid.jpg" alt="Metal Gear Solid">
+                    <video src="../videos/Metal-gear-solid.mp4" muted loop playsinline preload="none"></video>
+                </div>
+                <div class="infos">
+                    <h3>Metal Gear Solid</h3>
+                    <span class="badge">89</span>
+                </div>
+                <p>Une saga d'infiltration et d'espionnage tactique où discrétion, stratégie et action se mêlent au cœur de conflits militaires.</p>
+                <a href="#" class="bouton-voir">Voir plus</a>
+            </article>
+            <article class="cartes">
+                <div class="visuel">
+                    <img src="../images/Monster-hunter-wilds.jpg" alt="Monster Hunter Wilds">
+                    <video src="../videos/Monster-hunter-wilds.mp4" muted loop playsinline preload="none"></video>
+                </div>
+                <div class="infos">
+                    <h3>Monster Hunter Wilds</h3>
+                    <span class="badge">88</span>
+                </div>
+                <p>Partez à la chasse aux monstres dans un monde sauvage et dynamique. Explorez des environnements hostiles et affrontez des créatures gigantesques.</p>
+                <a href="#" class="bouton-voir">Voir plus</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PlayVault</p>
+    </footer>
+</body>
+</html>
