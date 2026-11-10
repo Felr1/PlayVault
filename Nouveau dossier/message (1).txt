@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayVault a propos</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">
+            <a href="index.html">
+                <img src="../images/logo.png" alt="PlayVault">
+            </a>
+        </h1>
+
+        <div class="zone-centre">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#jeux">Jeux</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                </ul>
+            </nav>
+
+            <form class="barre-recherche" role="search">
+                <input
+                    type="search"
+                    id="recherche"
+                    placeholder="Slime, RPG, infiltration…"
+                    aria-label="Rechercher un jeu">
+            </form>
+
+            <button class="recherche" aria-label="Recherche">
+                <svg class="icone-loupe" viewBox="0 0 24 24"
+                    width="20" height="20" fill="none"
+                    stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <circle cx="11" cy="11" r="7"/>
+                    <path d="M20 20l-4-4"/>
+                </svg>
+
+                <svg class="icone-fermer" viewBox="0 0 24 24"
+                    width="20" height="20" fill="none"
+                    stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <path d="M6 6l12 12M18 6L6 18"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+
+    <main class="page-apropos">
+
+        <!-- PRESENTATION -->
+        <section class="apropos-hero">
+
+            <span class="tag">À propos de nous</span>
+
+            <h2>Bienvenue dans l'univers PlayVault</h2>
+
+            <p>
+                PlayVault est une plateforme dédiée aux passionnés
+                de jeux vidéo. Notre objectif est de vous aider à
+                découvrir de nouveaux jeux, explorer différents
+                univers et trouver votre prochaine expérience
+                vidéoludique.
+            </p>
+
+            <a href="index.html#jeux" class="bouton-voir">
+                Découvrir les jeux
+            </a>
+
+        </section>
+
+
+        <!-- QUI SOMMES-NOUS -->
+        <section class="apropos-section">
+
+            <h2>Qui sommes-nous ?</h2>
+
+            <p>
+                PlayVault est un projet consacré à l'univers du jeu
+                vidéo et à sa diversité. Nous souhaitons proposer
+                un espace où chaque joueur peut découvrir des
+                expériences variées, qu'il soit amateur d'aventure,
+                de RPG, d'infiltration ou de jeux indépendants.
+            </p>
+
+            <p>
+                À travers une sélection de jeux, des descriptions
+                détaillées et des notes, PlayVault facilite la
+                recherche et accompagne les joueurs dans leurs choix.
+            </p>
+
+        </section>
+
+
+        <!-- NOTRE MISSION -->
+        <section class="apropos-section">
+
+            <h2>Notre mission</h2>
+
+            <p>
+                Notre mission est de rendre la découverte de jeux
+                vidéo plus simple, agréable et accessible à tous.
+            </p>
+
+            <div class="mission-cartes">
+
+                <article class="mission-carte">
+                    <h3>Découvrir</h3>
+                    <p>
+                        Mettre en avant des jeux variés et faire
+                        découvrir de nouveaux univers.
+                    </p>
+                </article>
+
+                <article class="mission-carte">
+                    <h3>Explorer</h3>
+                    <p>
+                        Permettre aux joueurs d'explorer différents
+                        genres et styles de jeux.
+                    </p>
+                </article>
+
+                <article class="mission-carte">
+                    <h3>Choisir</h3>
+                    <p>
+                        Aider chacun à trouver un jeu correspondant
+                        à ses envies grâce aux descriptions et aux notes.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- NOS VALEURS -->
+        <section class="apropos-section">
+
+            <h2>Nos valeurs</h2>
+
+            <div class="valeurs-cartes">
+
+                <article class="valeur-carte">
+                    <h3>Passion</h3>
+                    <p>
+                        Le jeu vidéo est au cœur de notre projet
+                        et de notre démarche.
+                    </p>
+                </article>
+
+                <article class="valeur-carte">
+                    <h3>Diversité</h3>
+                    <p>
+                        Nous souhaitons mettre en avant des jeux
+                        de tous les genres et de tous les univers.
+                    </p>
+                </article>
+
+                <article class="valeur-carte">
+                    <h3>Accessibilité</h3>
+                    <p>
+                        Une plateforme simple à utiliser et
+                        accessible à tous les joueurs.
+                    </p>
+                </article>
+
+                <article class="valeur-carte">
+                    <h3>Découverte</h3>
+                    <p>
+                        Encourager chacun à sortir de ses habitudes
+                        et à essayer de nouvelles expériences.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONCLUSION -->
+        <section class="apropos-conclusion">
+
+            <h2>Votre prochaine aventure commence ici.</h2>
+
+            <p>
+                Explorez notre sélection et trouvez votre prochain
+                coup de cœur vidéoludique.
+            </p>
+
+            <a href="index.html#jeux" class="bouton-voir">
+                Explorer PlayVault
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 PlayVault - Tous droits réservés.</p>
+        <a href="a-propos.html">À propos</a>
+    </footer>
+
+</body>
+</html>
