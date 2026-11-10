@@ -1,0 +1,96 @@
+.page-apropos { display: grid; gap: 4rem; }
+
+.tag {
+  padding: 0.25rem 0.9rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.apropos-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 50% 0, rgba(var(--jaune-rgb), 0.25), transparent 70%),
+    var(--fond-carte);
+}
+
+.apropos-hero h2 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.1;
+}
+
+.apropos-hero p {
+    max-width: 60ch;
+    opacity: 0.85;
+}
+
+.apropos-hero .bouton-voir,
+.apropos-conclusion .bouton-voir {
+    align-self: center;
+}
+
+.apropos-section {
+    display: grid;
+    gap: 1rem;
+}
+
+.apropos-section h2,
+.apropos-conclusion h2 {
+    font-size: 1.8rem;
+}
+.apropos-section > p {
+    max-width: 70ch;
+    opacity: 0.85;
+}
+
+.mission-cartes,
+.valeurs-cartes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+.mission-carte,
+.valeur-carte {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  background: var(--fond-carte);
+  border-radius: 12px;
+}
+.mission-carte {
+    border-top: 3px solid var(--accent);
+}
+
+.valeur-carte {
+    border-left: 3px solid var(--accent);
+}
+
+.mission-carte h3,
+.valeur-carte h3 {
+    color: var(--accent);
+}
+
+.mission-carte p,
+.valeur-carte p {
+    opacity: 0.8;
+}
+
+.apropos-conclusion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(var(--jaune-rgb), 0.2), var(--fond-carte));
+}
